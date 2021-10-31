@@ -1,4 +1,4 @@
-import {Given, When, Then} from "cypress-cucumber-preprocessor/steps";
+import {Given, When } from "cypress-cucumber-preprocessor/steps";
 
 Given('I have no todos', () => {
   cy.visit('/');
